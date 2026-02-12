@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap"
+    rel="stylesheet">
+  <title>Alexander Morton's Sales Dashboard (Prototype)</title>
+  <meta name="description"
+    content="Proprietary analytics dashboard prototype for Alexander Morton using demonstration data." />
+  <!-- DEBUG SCRIPT: Remove in production -->
+  <script>
+    window.onerror = function (message, source, lineno, colno, error) {
+      const check = document.getElementById('error-overlay');
+      const overlay = check || document.createElement('div');
+      overlay.id = 'error-overlay';
+      overlay.style.cssText = 'position:fixed;top:0;left:0;width:100%;background:rgba(255,0,0,0.9);color:white;padding:20px;z-index:9999;font-family:monospace;white-space:pre-wrap;';
+      overlay.innerText += `\n[Reference Error]: ${message}\nAt: ${source}:${lineno}:${colno}\n${error ? error.stack : ''}`;
+      if (!check) document.body.appendChild(overlay);
+      console.error(error);
+    };
+    window.onunhandledrejection = function (event) {
+      const check = document.getElementById('error-overlay');
+      const overlay = check || document.createElement('div');
+      overlay.id = 'error-overlay';
+      overlay.style.cssText = 'position:fixed;top:0;left:0;width:100%;height:100vh;background:rgba(50,0,0,0.95);color:#ffaaaa;padding:20px;z-index:9999;font-family:monospace;overflow:auto;';
+      overlay.innerText += `\n[Unhandled Promise]: ${event.reason}`;
+      if (!check) document.body.appendChild(overlay);
+      console.error(event.reason);
+    };
+  </script>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+
+</html>
