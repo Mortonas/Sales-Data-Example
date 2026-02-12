@@ -46,8 +46,8 @@ const RevenueSankeyChart = ({ data }) => {
 
     return (
         <Card
-            title="Revenue Flow Analysis"
-            description="Traces the journey of capital from category origin to final payment reconciliation. This reveals operational efficiency and customer payment preferences across the entire sales funnel."
+            title="Where the Money Flows"
+            description="The Revenue Flow Analysis tracks the journey from product type to the customer’s pocket. A key detail here is that Office Supplies act as the workhorse of the operation. They move through almost every region and payment type, showing that the most basic items are often the ones keeping the gears turning on a daily basis."
             tags={['#DataFlow', '#OperationalEfficiency']}
             className="h-[400px]"
         >

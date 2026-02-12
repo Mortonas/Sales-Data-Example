@@ -84,8 +84,8 @@ const RatingRevenueDualChart = ({ data }) => {
 
     return (
         <Card
-            title="Rating vs. Revenue"
-            description="Correlates customer satisfaction with financial performance. It identifies whether brand reputation (ratings) acts as a leading or lagging indicator for revenue growth in specific categories."
+            title="The Quality Ceiling (Rating vs. Revenue)"
+            description="The Rating vs. Revenue chart shows a strange phenomenon. No matter how much money a category brings in, the rating stays stuck at 3.0. This reveals that the issue isn't the specific product. It is likely a universal part of the process, like the website interface or the delivery speed, that is capping the project's potential across the board."
             tags={['#CorrelationAnalysis', '#BrandHealth']}
             className="min-h-[32rem]"
         >

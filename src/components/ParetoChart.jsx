@@ -1,3 +1,4 @@
+import React from 'react';
 import { Chart as ChartJS, CategoryScale, LinearScale, BarElement, PointElement, LineElement, Title, Tooltip, Legend, LineController } from 'chart.js';
 import { Chart } from 'react-chartjs-2';
 import Card from './Card';
@@ -63,8 +64,8 @@ const ParetoChart = ({ data }) => {
 
     return (
         <Card
-            title="Product Pareto (80/20)"
-            description="Segregates the 'critical few' from the 'trivial many.' This identifies the top 20% of products driving 80% of revenue, enabling strategic prioritization of inventory and marketing resources."
+            title='The "Vital Few" (Pareto 80/20)'
+            description="The Product Pareto chart proves that not all items are created equal. It reveals a heavy reliance on just a few items. The top five products alone account for almost 40% of our success. This is a fragile success. If those five specific items ran out of stock, the entire dashboard would look significantly different."
             tags={['#80/20Rule', '#StatisticalDistribution']}
             className="h-[400px]"
         >

@@ -52,8 +52,8 @@ const SalesHeatmap = ({ data }) => {
 
     return (
         <Card
-            title="Sales Velocity (Heatmap)"
-            description="Uncovers temporal demand patterns and seasonal spikes. This granularity is essential for optimizing operational logistics, staffing requirements, and promotional timing."
+            title="Timing the Peak (Heatmap)"
+            description="The Sales Velocity map acts as a weather report for activity. It reveals a mid-year surge between weeks 22 and 31. While many expect a holiday rush at the end of the year, this data shows that the real heat of this project happens during the summer months, particularly on mid-week days like Tuesday and Wednesday."
             tags={['#TemporalAnalysis', '#DemandForecasting']}
             className="h-[400px]"
         >

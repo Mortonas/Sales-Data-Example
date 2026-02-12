@@ -136,8 +136,8 @@ const CategorySunburstChart = ({ data }) => {
 
     return (
         <Card
-            title="Hierarchical Revenue Attribution"
-            description="This sunburst visualization maps revenue concentration across nested categories. It is designed to reveal the 'drill-down' relationship between high-level sectors and their sub-segments, allowing stakeholders to identify specific niche drivers of top-line growth at a glance."
+            title="The Power Players (Revenue Attribution)"
+            description="When we look at the total $3.3M, it’s clear that Electronics is the heavyweight champion, claiming nearly 42% of the total. However, this also means the entire project is highly dependent on tech products; if interest in Laptops or Devices fades, nearly half of the total revenue would be at risk."
             tags={['#HierarchyLogic', '#MarketSnapshot']}
             className="h-[500px]"
         >

@@ -8,6 +8,7 @@ import CategorySunburstChart from './CategorySunburstChart';
 import CategoryRadarChart from './CategoryRadarChart';
 import ParetoChart from './ParetoChart';
 import SalesHeatmap from './SalesHeatmap';
+import Card from './Card';
 
 // Legacy / Standard Charts
 // keeping some for "Granular Details"
@@ -122,6 +123,14 @@ const Dashboard = () => {
                     </div>
                 </div>
             </header>
+
+            {/* The Big Picture / Intro */}
+            <Card
+                className="mb-8"
+                title="The Big Picture: $3.2M in Activity"
+                description="My dashboard tracks a massive dataset of 8,260 transactions, totaling over $3.2 million. While the sheer volume is impressive, the pulse of the project sits at a 3.0 rating. This tells us that while the engine is running fast, there is a consistent friction in the experience that keeps the satisfaction levels at a perfect average."
+            >
+            </Card>
 
             {/* Stats Row */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">

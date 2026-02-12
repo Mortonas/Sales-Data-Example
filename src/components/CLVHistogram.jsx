@@ -64,8 +64,8 @@ const CLVHistogram = ({ data }) => {
 
     return (
         <Card
-            title="Customer Lifetime Value"
-            description="Segments the customer base by long-term financial potential. This visualization informs targeted retention strategies and helps define sustainable Customer Acquisition Cost (CAC) limits."
+            title="Customer Loyalty (Lifetime Value)"
+            description="The CLV chart shows us the long-term value of a single user. There is a sharp drop-off after the $1,250 mark, which reveals that most people are one-time visitors. We are great at getting people through the door, but we haven't yet found the hook that turns a casual user into a high-value regular."
             tags={['#CustomerSegmentation', '#CohortAnalysis']}
             className="min-h-[32rem]"
         >

@@ -65,8 +65,8 @@ const RevenueVolumeBoxPlot = ({ data }) => {
 
     return (
         <Card
-            title="Price Distribution (Box Plot)"
-            description="Analyzes pricing consistency and elasticity across order volumes. This is used to detect pricing outliers and evaluate the impact of bulk-discounting strategies on profit margins."
+            title="Pricing Trends (Box Plot)"
+            description="The Price Distribution look shows us how much people are paying across different order sizes. Interestingly, the price stays almost flat regardless of how much someone buys. This tells us there is no bulk discount logic currently active. Whether you buy one or eight, you’re essentially paying the same unit price, which is rare for a project of this scale."
             tags={['#PricingStrategy', '#OutlierDetection']}
             className="min-h-[32rem]"
         >

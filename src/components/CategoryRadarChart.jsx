@@ -54,8 +54,8 @@ const CategoryRadarChart = ({ data }) => {
 
     return (
         <Card
-            title="Category Health (Radar)"
-            description="A multivariate performance assessment comparing categories across five dimensions. It highlights operational imbalances, such as high-revenue sectors suffering from low margins or poor volume."
+            title="The Health Check (Radar Chart)"
+            description="The Category Health map shows us the shape of our success. The most interesting revelation is the stretch in the Electronics category. It has massive Demand, but it’s being pulled thin. It shows the lowest Margins and Ratings, meaning we are working the hardest on the products that people like the least and where we make the least amount of profit."
             tags={['#MultivariateAnalysis', '#PerformanceMetrics']}
             className="h-[400px]"
         >
