@@ -10,7 +10,8 @@ import {
     PointElement,
     Title,
     Tooltip,
-    Legend
+    Legend,
+    LineController
 } from 'chart.js';
 import '../config/chartConfig';
 
@@ -22,7 +23,8 @@ ChartJS.register(
     PointElement,
     Title,
     Tooltip,
-    Legend
+    Legend,
+    LineController
 );
 
 const RatingRevenueDualChart = ({ data }) => {
